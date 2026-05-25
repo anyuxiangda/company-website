@@ -318,6 +318,7 @@ h3 {
 
   .hero-image-card img {
     aspect-ratio: 16 / 10;
+    object-position: center 28%;
   }
 
   .feature-grid {
