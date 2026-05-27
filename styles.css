@@ -36,6 +36,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -369,11 +374,14 @@ h3 {
 .showcase-card {
   overflow: hidden;
   margin: 0;
+  min-width: 0;
 }
 
 .showcase-card img {
   display: block;
   width: 100%;
+  max-width: 100%;
+  height: auto;
   aspect-ratio: 16 / 9;
   object-fit: cover;
 }
@@ -398,7 +406,7 @@ h3 {
 }
 
 .showcase-card-large img {
-  aspect-ratio: 16 / 11;
+  aspect-ratio: 16 / 9;
 }
 
 .product-card {
